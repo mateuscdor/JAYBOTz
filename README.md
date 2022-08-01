@@ -10,8 +10,8 @@ $ pkg install git -y
 $ pkg install nodejs -y
 $ pkg install ffmpeg -y
 $ pkg install imagemagick -y
-$ git clone https://github.com/EkaBotWhatsapp/JAYBOTz12
-$ cd JAYBOTz12
+$ git clone https://github.com/EkaBotWhatsapp/test1
+$ cd test1
 $ npm i 
 $ node .
 ```
@@ -55,8 +55,8 @@ apt install wget curl git ffmpeg imagemagick build-essential libcairo2-dev libpa
 ubuntu
 curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
 apt install -y nodejs gcc g++ make
-$ git clone https://github.com/EkaBotWhatsapp/JAYBOTz12
-cd JAYBOTz12
+$ git clone https://github.com/EkaBotWhatsapp/test1
+cd test1
 npm install
 npm update
 ```
@@ -71,8 +71,8 @@ npm update
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
 
 ```bash
-$ git clone https://github.com/EkaBotWhatsapp/JAYBOTz12 -b multi-device
-cd JAYBOTz12
+$ git clone https://github.com/EkaBotWhatsapp/test1 -b multi-device
+cd test1
 npm install
 npm update
 ```
