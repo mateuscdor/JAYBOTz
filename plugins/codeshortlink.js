@@ -5,11 +5,11 @@ let handler = async(m, { conn, args, usedPrefix }) => {
 
    if (new Date - global.db.data.users[m.sender].lastcode > 600000) {
      if (new Date - global.db.data.users[m.sender].lastcode < 600000) throw `Anda sudah mengambill code gift, Code gift anda sudah kadaluarsa..\nTunggu besok iya kak..`
-    conn.reply(m.chat, `*SELAMAT!*\n\nKamu telah mendapatkan\n+25000 XP\n+25000 Money\n+25000 Nabung Money\n+25 Limit`, m)
-    global.db.data.users[m.sender].exp += 25000
+    conn.reply(m.chat, `*SELAMAT!*\n\nKamu telah mendapatkan\n+2500000 XP\n+2500000 Money\n+2500000 Nabung Money\n+25 Limit`, m)
+    global.db.data.users[m.sender].exp += 2500000
     global.db.data.users[m.sender].limit += 25
-    global.db.data.users[m.sender].bank += 25000
-    global.db.data.users[m.sender].money += 25000
+    global.db.data.users[m.sender].bank += 2500000
+    global.db.data.users[m.sender].money += 2500000
    global.db.data.users[m.sender].lastcode = new Date * 1
 } else conn.reply(m.chat, 'Kode anda sudah kadaluarsa, harap transaksi kembali..', m)
    } else {
