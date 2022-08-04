@@ -1,7 +1,12 @@
 {
   "name": "JAYBOTz",
-  "description": "Customizable WhatsApp Bot JAYBOTz",
+  "description": "JAYBOTz",
   "repository": "https://github.com/EkaBotWhatsapp/JAYBOTz",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
-  "keywords": ["JAYBOTz", "bot", "whatsapp", "whatsapp-bot", "rpg", "games-wabot", "epic rpg"]
+  "keywords": ["bot", "whatsapp", "whatsapp-bot"]
+  "buildpacks": [
+    {"url": "heroku/nodejs"},
+    {"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"},
+    {"url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"}
+  ]
 }
