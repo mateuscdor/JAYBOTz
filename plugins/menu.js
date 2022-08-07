@@ -166,7 +166,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.sendHydrated(m.chat, text.trim(), 'Ⓟ JAYBOTz | Ⓛ Eka Septiawan', null, 'https://github.com/EkaBotWhatsapp/JAYBOTz12.git', 'Script', '', '', [
+    conn.sendHydrated(m.chat, text.trim(), 'Ⓟ JAYBOTz | Ⓛ Eka Septiawan', null, 'https://jaybotz-api.herokuapp.com/', 'JAYAPI', '', '', [
       ['DONATE', '/donate'],
       ['SEWA BOT', '/sewa'],
       ['OWNER JAYBOTz', '/owner']
@@ -183,8 +183,8 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                             hydratedFooterText:'Ⓟ premium | Ⓛ limit',
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://github.com/EkaBotWhatsapp/Jaybotz12'
+                                    displayText: 'JAYAPI',
+                                    url: 'https://jaybotz-api.herokuapp.com/'
                                 }
                             }, {
                                 quickReplyButton: {
