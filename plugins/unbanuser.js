@@ -12,7 +12,7 @@ let handler = async (m, { conn, text}) => {
 handler.help = ['unban']
 handler.tags = ['owner']
 handler.command = /^unban$/i
-handler.rowner = true
+handler.owner = true
 
 module.exports = handler*/
 
@@ -32,6 +32,6 @@ let handler = async (m, { conn, text, usedPrefix }) => {
 handler.help = ['unban']
 handler.tags = ['owner']
 handler.command = /^unban$/i
-handler.rowner = true
+handler.owner = true
 handler.fail = null
 module.exports = handler
