@@ -214,9 +214,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
 handler.help = ['menu']
 handler.tags = ['main']
 handler.command = /^(menu|help|\?)$/i
-
-handler.exp = 3
-
+handler.register = true
 module.exports = handler
 
 const more = String.fromCharCode(8206)
